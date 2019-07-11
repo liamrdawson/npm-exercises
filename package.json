@@ -1,0 +1,24 @@
+{
+  "name": "hash_generator",
+  "version": "0.0.1",
+  "description": "A password hash generator.",
+  "main": "script.js",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "colors": "^1.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liamrdawson/npm-exercises.git"
+  },
+  "author": "Liam Dawson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liamrdawson/npm-exercises/issues"
+  },
+  "homepage": "https://github.com/liamrdawson/npm-exercises#readme"
+}
