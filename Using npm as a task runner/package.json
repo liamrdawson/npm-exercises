@@ -4,12 +4,14 @@
   "description": "",
   "scripts": {
     "test": "mocha",
-    "uglify": "node_modules/.bin/uglifyjs src/models/* src/frontend.js -m -c -o build/app.js"
+    "uglify": "node_modules/.bin/uglifyjs src/models/* src/frontend.js -m -c -o build/app.js",
+    "copy-files": "cp src/*.html build/ & cp src/*.css build/",
+    "build": "npm run copy-files && npm run uglify"
   },
   "author": "Andrew Chalkley",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^2.2.5",
-    "uglify-js": "^2.4.23"
+    "mocha": "^6.1.4",
+    "uglify-js": "^3.6.0"
   }
 }
